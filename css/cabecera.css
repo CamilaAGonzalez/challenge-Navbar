@@ -1,0 +1,32 @@
+/* estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family:sans-serif;
+}
+
+/* header */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#5f4242;
+    padding: 1rem 12rem ;
+}
+/* nav */
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap:2rem;
+} 
+a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #d1c3c3;
+}
+img{
+    width: 100%;
+}
